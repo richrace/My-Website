@@ -7,8 +7,23 @@
   <%= csrf_meta_tag %>
 </head>
 <body>
-
-<%= yield %>
-
+	<div class="main">
+	<div class="header">
+		<h1>Richard Race's Site<h2>
+	</div>
+	<div class="navigation">
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Projects</a></li>
+			<li><a href="#">About</a></li>
+		</ul>
+	</div>
+	<div class="content">
+		<%= yield %>
+	</div>
+	</div>
+	<div class="footer">
+		<p>Copyright © 2012 Richard Race</p>
+	</div>
 </body>
 </html>
