@@ -1,6 +1,8 @@
 Mysite::Application.routes.draw do
 
   match 'home' => 'home#index', :as => :home
+  match 'about' => 'about#index', :as => :about
+
   root :to => "home#index"
 
   # The priority is based upon order of creation:
