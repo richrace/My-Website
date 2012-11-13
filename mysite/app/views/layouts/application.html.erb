@@ -10,12 +10,13 @@
 <body>
 	<div class="main">
 	<div class="header">
-		<h1>Richard Race's Site<h2>
+		<h1>Richard Race's Site<h1>
 	</div>
 	<div class="navigation">
-		<ul>
+		<h1><%= @title %></h1>
+		<ul>			
 			<li><%= link_to "Home", home_path %></li>
-			<li><a href="#">Projects</a></li>
+			<li><%= link_to "Projects", projects_path %></li>
 			<li><%= link_to "About", about_path %></li>
 		</ul>
 	</div>

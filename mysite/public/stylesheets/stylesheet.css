@@ -1,5 +1,6 @@
 body {
-	background-color:#CCCCCC;
+	background:url('/images/background.png');
+	background-repeat:repeat;
 	font-family: 'Droid Sans', helvetica, sans-serif;
 }
 
@@ -19,12 +20,7 @@ body {
 	padding-top: 10px;
 	padding-left: 10px;
 	padding-bottom: 10px;
-	background-image: -ms-linear-gradient(top, #FFFFFF 0%, #86EBEF 100%);
-	background-image: -moz-linear-gradient(top, #FFFFFF 0%, #86EBEF 100%);
-	background-image: -o-linear-gradient(top, #FFFFFF 0%, #86EBEF 100%);
-	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(1, #86EBEF));
-	background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #86EBEF 100%);
-	background-image: linear-gradient(to bottom, #FFFFFF 0%, #86EBEF 100%);
+	background-color: #86EBEF;
 }
 
 .header h1 {
@@ -34,6 +30,7 @@ body {
 .content {
 	padding-left: 10px;
 	padding-right: 10px;
+	clear:both;
 }
 
 .content p {
@@ -58,6 +55,7 @@ body {
 	-moz-box-shadow: 0 0 5px #888;
 	-webkit-box-shadow:0 0 5px #888;
 	box-shadow:0 0 5px #888;
+	padding-right: 25px;
 }
 
 .navigation ul {
@@ -81,4 +79,14 @@ body {
 	-moz-box-shadow: 0 0 10px #888;
 	-webkit-box-shadow: 0 0 10px #888;
 	box-shadow: 0 0 10px #888;
+}
+
+.navigation h1 {
+	font-size: 20px;
+	padding-left: 20px;
+	padding-bottom: 15px;
+	text-align: left;
+	display:inline-block; 
+	text-decoration:none;
+	float: left;
 }
