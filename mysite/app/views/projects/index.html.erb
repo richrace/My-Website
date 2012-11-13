@@ -1,0 +1,11 @@
+<% @title="Projects" %>
+
+<% @projects.each do |project| %>
+  <p>
+    <b><%= project.title %></b> - <%= link_to "View Project", project %>
+    <br />
+    <br />
+    <%= project.description %>
+  </p>
+<% end %>
+

@@ -1,0 +1,18 @@
+<% @title=@project.title %>
+
+<p><%= link_to 'Back to Projects', projects_path %></b>
+
+<p>
+  <b><%= @project.title %></b> - <%= @project.description %>
+</p>
+
+<p>
+	<%= link_to 'View Source Code on GitHub', @project.github, :target => '_blank' %>
+<p>
+  <b>What is it?</b>
+  <br />
+  <br />
+  <%= @project.content %>
+</p>
+
+

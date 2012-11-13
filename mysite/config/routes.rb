@@ -1,5 +1,7 @@
 Mysite::Application.routes.draw do
 
+  resources :projects
+
   match 'home' => 'home#index', :as => :home
   match 'about' => 'about#index', :as => :about
 

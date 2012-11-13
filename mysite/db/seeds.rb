@@ -5,3 +5,11 @@
 #
 #   cities = City.create([{ :name => 'Chicago' }, { :name => 'Copenhagen' }])
 #   Mayor.create(:name => 'Daley', :city => cities.first)
+
+projects = Project.create({
+	:title => "XBMC Remote App",
+	:description => "An iPhone and Android XBMC Remote App built using Ruby.",
+	:content => "Bigger description here",
+	:github => "https://github.com/richrace/RemoteApp"
+	})
+
