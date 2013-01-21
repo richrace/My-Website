@@ -5,9 +5,11 @@
 <p>
   <b><%= @project.title %></b> - <%= @project.description %>
 </p>
-
+<% unless @project.github.nil? %>
 <p>
 	<%= link_to 'View Source Code on GitHub', @project.github, :target => '_blank' %>
+</p>
+<% end %>
 <p>
   <b>What is it?</b>
   <br />
