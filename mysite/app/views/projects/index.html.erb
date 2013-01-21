@@ -1,11 +1,18 @@
-<% @title="Projects" %>
-
-<% @projects.each do |project| %>
-  <p>
-    <b><%= project.title %></b> - <%= link_to "View Project", project %>
-    <br />
-    <br />
-    <%= project.description %>
-  </p>
-<% end %>
+<div>
+	<% @title="Projects" %>
+	<h2><%= @title %></h2>
+	<% @projects.each do |project| %>
+	  <p>
+	    <b><%= project.title %></b>
+	    <br />
+	    <br />
+	    <%= project.description %>
+	  </p>
+	  <p>
+	  	<%= link_to "View Project", project, :class => 'btn' %>
+	  	<br />
+	    <br />
+	  </p>
+	<% end %>
+</div>
 
