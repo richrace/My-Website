@@ -9,9 +9,10 @@
 #   Mayor.create(:name => 'Daley', :city => cities.first)
 
 projects = Project.create({
-	:title => "XBMC Raspberry Pi",
-	:description => "What I'm going to do with my Raspberry Pi",
-	:content => "So my plan is to use OpenElec and install it onto my Raspberry Pi. However, as I'm currently poor, I don't have a spare HDMI cable (I know, only £2) or a Micro USB charger. I will update this once I get started with it!"
+	:title => "This Site!",
+	:description => "Learn a bit more about Rails and JavaScript frameworks",
+	:content => "Basicly I'm using this site as a live place to use Heroku, get more experience with Git, learn more about Rails and JavaScript.",
+	:github => "https://github.com/richrace/My-Website"
 	})
 
 
